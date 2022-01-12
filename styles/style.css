@@ -87,8 +87,8 @@ hr {
   width: 250px;
   height: 270px;
   background-color: #ffffff;
-  padding: 12px;
-  margin-right: 24px;
+  padding: 10px;
+  margin-right: 10px;
   border-radius: 15px;
   filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05));
 }
@@ -98,7 +98,7 @@ hr {
   height: 104px;
 }
 .course-title {
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 0;
 }
 .course-instructor {
@@ -117,7 +117,8 @@ hr {
 .stars {
   margin-right: 11px;
 }
-.fa-star {
+.fa-star,
+.fa-star-half-alt {
   font-size: 12px;
 }
 .fa-star.fillid {
@@ -146,6 +147,9 @@ hr {
   .blog,
   .courses {
     flex-direction: column;
+  }
+  .course {
+    margin-top: 20px;
   }
 }
 
