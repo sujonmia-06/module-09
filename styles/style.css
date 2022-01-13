@@ -222,6 +222,17 @@ hr {
   .course {
     margin-top: 20px;
   }
+
+  /* nav bar */
+  .nav-menu {
+    flex-direction: column;
+  }
+  .nav-menu a {
+    margin: 20px 0;
+  }
+  .navbar {
+    height: 100px;
+  }
 }
 
 /* tablet devices */
